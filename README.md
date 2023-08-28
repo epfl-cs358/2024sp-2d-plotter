@@ -172,3 +172,19 @@ In Universal Gcode Platform:
 
 Trouble shoot as necessary afterwards (e.g. re-adjusting belt, …).
 
+
+# Results
+
+Here are some demo results:
+
+![MIT_Cat_Drawing](https://github.com/mxt-fr/MIT-2DPlotter/assets/42436661/afad3bac-b6d5-4c43-ae04-257500907048)
+
+![MIT_Square](https://github.com/mxt-fr/MIT-2DPlotter/assets/42436661/f6f7bdc2-2a11-4508-93d1-201965074487)
+
+![MIT_Text](https://github.com/mxt-fr/MIT-2DPlotter/assets/42436661/e4860249-8543-4c16-bf80-5bd27a15c57f)
+
+We also have a video of of the jogger controls working with the CNC:
+https://github.com/mxt-fr/MIT-2DPlotter/assets/42436661/b9621ea6-6f78-48c5-8ce1-ecfbed1541c0
+
+
+
