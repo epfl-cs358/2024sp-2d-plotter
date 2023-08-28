@@ -15,7 +15,7 @@ Install the latest Arduino IDE (2.x) from the official Arduino website: [https:/
 Install and import the modified GRBL library (from [https://github.com/ruizivo/GRBL-28byj-48-Servo/tree/1d0d05261973064152ef94c29ec2d0c7e0b3aace](https://github.com/ruizivo/GRBL-28byj-48-Servo/tree/1d0d05261973064152ef94c29ec2d0c7e0b3aace)) using the following docs as a guide on how to import it into Arduino 2.x: [https://github.com/gnea/grbl/wiki/Compiling-Grbl#if-you-are-using-arduino-ide-2x](https://github.com/gnea/grbl/wiki/Compiling-Grbl#if-you-are-using-arduino-ide-2x)
 
 
-💡 Note: Here, instead of download the GRBL source code, download the modified GRBL from here [https://github.com/ruizivo/GRBL-28byj-48-Servo/tree/1d0d05261973064152ef94c29ec2d0c7e0b3aace](https://github.com/ruizivo/GRBL-28byj-48-Servo/tree/1d0d05261973064152ef94c29ec2d0c7e0b3aace).
+Note: Here, instead of download the GRBL source code, download the modified GRBL from here [https://github.com/ruizivo/GRBL-28byj-48-Servo/tree/1d0d05261973064152ef94c29ec2d0c7e0b3aace](https://github.com/ruizivo/GRBL-28byj-48-Servo/tree/1d0d05261973064152ef94c29ec2d0c7e0b3aace).
 
 We must use the `June 12, 2016` commit version (as the latest version has compilation errors).
 
