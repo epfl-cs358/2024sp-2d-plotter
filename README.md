@@ -32,7 +32,7 @@ This indicates that the grbl was successfully installed!
 
 You can read about GRBL wiring on the following docs: [https://github.com/gnea/grbl/wiki/Connecting-Grbl#grbls-pins](https://github.com/gnea/grbl/wiki/Connecting-Grbl#grbls-pins). We use the modified GRBL, which already defines which pins to connect our stepper motor drivers and servo to, as defined in the table below.
 
-![Circuit Diagram.png](images/Circuit_Diagram.png)
+![Circuit Diagram.png](Images/Circuit_Diagram.png)
 
 Wiring Configuration Diagram
 
