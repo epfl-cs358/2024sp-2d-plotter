@@ -191,5 +191,10 @@ We also have a video of of the jogger controls working with the CNC:
 https://github.com/mxt-fr/MIT-2DPlotter/assets/42436661/460fb4e0-a3b4-41f5-aea6-323c3cde348b
 
 
+Here are some photos of our final project:
+![Final_Project_1](https://github.com/mxt-fr/MIT-2DPlotter/assets/42436661/b1f2dc4a-327f-4e95-9681-7f4543f66853)
+
+![Final_Project_2](https://github.com/mxt-fr/MIT-2DPlotter/assets/42436661/4f181501-8609-4bf9-bed1-a31c5fbdf87a)
+
 
 
