@@ -33,7 +33,7 @@ This indicates that the grbl was successfully installed!
 
 You can read about GRBL wiring on the following docs: [https://github.com/gnea/grbl/wiki/Connecting-Grbl#grbls-pins](https://github.com/gnea/grbl/wiki/Connecting-Grbl#grbls-pins). We use the modified GRBL, which already defines which pins to connect our stepper motor drivers and servo to, as defined in the table below.
 
-![Circuit Diagram.png]()
+![Circuit Diagram.png](images/Circuit%20Diagram.png)
 
 Wiring Configuration Diagram
 
@@ -49,7 +49,7 @@ Then, connect devices as follows:
 
 We will also include limit switches. Limit switches allow our CNC machine to emergency stop when we reach the end our our axle. There are two configuration options, NC (normally closed) and NO (normally open). We go with the typical NC, which is safer as if there is a wire problem then the circuit will be open (thus will send an alarm signal).
 
-![Untitled](2D%20Plotter%20166d9bd0cc4e49f894fa3b567d57807f/Untitled.png)
+![Limit Switches Wiring Diagram](Images/Limit%20Switch%20Diagram.png)
 
 | Device | NC (lever sticking up end) | COM (lever down end) |
 | --- | --- | --- |
@@ -67,17 +67,17 @@ Download and Install the latest Platform version.
 <aside>
 💡 Note on MacOS, after double-clicking the .dmg file you will not get any pop-up/installation tips. Instead, check your finder sidebar, and you will see the mounted disk “Universal G-Code Platform”. Click here, then drag and drop the “Universal G-Code Platform” into your applications folder and then launch.
 
-![Untitled](2D%20Plotter%20166d9bd0cc4e49f894fa3b567d57807f/Untitled%201.png)
+![Finder screenshot UGS Platform Installation](Images/UGS_Macos_Screenshot.png)
 
 </aside>
 
 Then, connect to your device by specifying as below (and the correct port)
 
-![Untitled](2D%20Plotter%20166d9bd0cc4e49f894fa3b567d57807f/Untitled%202.png)
+![UGS Connect Device Screenshot](Images/UGS_Connect_Device_Screenshot.png)
 
 Once connected, you should see something like this:
 
-![Untitled](2D%20Plotter%20166d9bd0cc4e49f894fa3b567d57807f/Untitled%203.png)
+![UGS Platform Connected Screenshot](Images/UGS_Connected_Screenshot.png)
 
 On the bottom left, you can use the jog controller to control your axis. If everything is wired correctly, then you can use this to move your Y and X axis controllers manually.
 
@@ -100,12 +100,12 @@ For our set-up, do as follows:
 
 - Set the servo to degree 0 using `M05` or `M03 Sxxx`. Then, connect the white servo lever, pointed upwards at 45 degree angle
     
-    ![IMG_0272.HEIC](2D%20Plotter%20166d9bd0cc4e49f894fa3b567d57807f/IMG_0272.heic)
+    ![IMG_0272.HEIC](Images/Servo_Config_Pen_Up.heic)
     
 
 - Now, when you move to degree 85 (`M03 S225`**)**, it should go downwards allowing the pen to touch the paper
     
-    ![IMG_0273.HEIC](2D%20Plotter%20166d9bd0cc4e49f894fa3b567d57807f/IMG_0273.heic)
+    ![IMG_0273.HEIC](Images/Servo_Config_Pen_Down.heic)
     
 
 ## Set-up Limit Switches (Optional)
@@ -116,7 +116,7 @@ Then, within Arduino Serial Monitor or UGS Platform Console (connecting to your 
 
 Type `$` into the terminal to the connected 2D Plotter
 
-![Untitled](2D%20Plotter%20166d9bd0cc4e49f894fa3b567d57807f/Untitled%204.png)
+![Untitled](Images/GRBL_Command_$.png)
 
 `$21=1` → Enable hard limits (so the CNC machine stops if hitting a switch)
 
@@ -124,9 +124,7 @@ Type `$` into the terminal to the connected 2D Plotter
 
 If wired correctly, you should see the following error when hitting a limit switch in Universal G-Code Sender
 
-![Untitled](2D%20Plotter%20166d9bd0cc4e49f894fa3b567d57807f/Untitled%205.png)
-
-![Untitled](2D%20Plotter%20166d9bd0cc4e49f894fa3b567d57807f/Untitled%206.png)
+![Untitled](Images/GRBL_Limit_Working.png)
 
 If you get an alarm, then it means a limit switch was triggered. To clear the alarm:
 
