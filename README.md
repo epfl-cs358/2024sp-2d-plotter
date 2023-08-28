@@ -100,12 +100,12 @@ For our set-up, do as follows:
 
 - Set the servo to degree 0 using `M05` or `M03 Sxxx`. Then, connect the white servo lever, pointed upwards at 45 degree angle
     
-    ![IMG_0272.HEIC](Images/Servo_Config_Pen_Up.heic)
+    ![IMG_0272.HEIC](Images/Servo_Pen_Up.png)
     
 
 - Now, when you move to degree 85 (`M03 S225`**)**, it should go downwards allowing the pen to touch the paper
     
-    ![IMG_0273.HEIC](Images/Servo_Config_Pen_Down.heic)
+    ![IMG_0273.HEIC](Images/Servo_Pen_Down.png)
     
 
 ## Set-up Limit Switches (Optional)
