@@ -177,14 +177,19 @@ Trouble shoot as necessary afterwards (e.g. re-adjusting belt, …).
 
 Here are some demo results:
 
+A cat (turned out better than others):
 ![MIT_Cat_Drawing](https://github.com/mxt-fr/MIT-2DPlotter/assets/42436661/afad3bac-b6d5-4c43-ae04-257500907048)
 
+A square...
 ![MIT_Square](https://github.com/mxt-fr/MIT-2DPlotter/assets/42436661/f6f7bdc2-2a11-4508-93d1-201965074487)
 
+And text printing "Making Intelligent Things". Could be that the written text is inverted
 ![MIT_Text](https://github.com/mxt-fr/MIT-2DPlotter/assets/42436661/e4860249-8543-4c16-bf80-5bd27a15c57f)
 
 We also have a video of of the jogger controls working with the CNC:
-https://github.com/mxt-fr/MIT-2DPlotter/assets/42436661/b9621ea6-6f78-48c5-8ce1-ecfbed1541c0
+
+https://github.com/mxt-fr/MIT-2DPlotter/assets/42436661/460fb4e0-a3b4-41f5-aea6-323c3cde348b
+
 
 
 
