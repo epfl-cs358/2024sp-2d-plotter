@@ -32,7 +32,7 @@ This indicates that the grbl was successfully installed!
 
 You can read about GRBL wiring on the following docs: [https://github.com/gnea/grbl/wiki/Connecting-Grbl#grbls-pins](https://github.com/gnea/grbl/wiki/Connecting-Grbl#grbls-pins). We use the modified GRBL, which already defines which pins to connect our stepper motor drivers and servo to, as defined in the table below.
 
-![Circuit Diagram.png](images/Circuit%20Diagram.png)
+![Circuit Diagram.png](images/Circuit_Diagram.png)
 
 Wiring Configuration Diagram
 
@@ -48,7 +48,7 @@ Then, connect devices as follows:
 
 We will also include limit switches. Limit switches allow our CNC machine to emergency stop when we reach the end our our axle. There are two configuration options, NC (normally closed) and NO (normally open). We go with the typical NC, which is safer as if there is a wire problem then the circuit will be open (thus will send an alarm signal).
 
-![Limit Switches Wiring Diagram](Images/Limit%20Switch%20Diagram.png)
+![Limit Switches Wiring Diagram](Images/Limit_Switch_Diagram.png)
 
 | Device | NC (lever sticking up end) | COM (lever down end) |
 | --- | --- | --- |
