@@ -1,4 +1,4 @@
-# MIT-2DPlotter
+# MIT-2DPlotter (Student Project, Summer 2023)
 
 # Software:
 
@@ -131,22 +131,6 @@ If you get an alarm, then it means a limit switch was triggered. To clear the al
 2. Then, jog the controller so that the the limit switch is released (i.e. move away from the axis.
 3. Repeat steps 1 & 2 if the alarm triggered again when the switch was released.
 
-## Set-up Homing (Not Working)
-
-Once the limit switches are set-up, homing can be done (so that the CNC machine resets to initial conditions).
-
-`$22=1` → Enable homing
-
-`$23=1` → Set the X-axis and Y-axis homing directions
-
-`$$` → Verify the configuration
-
-`$H` → You can then use this command to home the device to the limit switches
-
-(In case there are alarms, you can use the `$X` command to clear them (after verifying your CNC is not stuck/obstructed by something)
-
-❗We had troubles to set-up the homing, which could be because of limit switch interference. In order to mitigate this, we need wire shielding (from the motors) and noise filtering (resistors and capacitors for the limit switches). See following: [https://github.com/winder/Universal-G-Code-Sender/issues/1208#issuecomment-482788731](https://github.com/winder/Universal-G-Code-Sender/issues/1208#issuecomment-482788731)
-
 ## Creating Gcode from PNG
 
 Follow instructions from here: [https://youtu.be/d8ZynbxfBDo?feature=shared&t=658](https://youtu.be/d8ZynbxfBDo?feature=shared&t=658)
@@ -174,22 +158,6 @@ Trouble shoot as necessary afterwards (e.g. re-adjusting belt, …).
 
 
 # Results
-
-Here are some demo results:
-
-A cat (turned out better than others):
-![MIT_Cat_Drawing](https://github.com/mxt-fr/MIT-2DPlotter/assets/42436661/afad3bac-b6d5-4c43-ae04-257500907048)
-
-A square...
-![MIT_Square](https://github.com/mxt-fr/MIT-2DPlotter/assets/42436661/f6f7bdc2-2a11-4508-93d1-201965074487)
-
-And text printing "Making Intelligent Things". Could be that the written text is inverted
-![MIT_Text](https://github.com/mxt-fr/MIT-2DPlotter/assets/42436661/e4860249-8543-4c16-bf80-5bd27a15c57f)
-
-We also have a video of of the jogger controls working with the CNC:
-
-https://github.com/mxt-fr/MIT-2DPlotter/assets/42436661/460fb4e0-a3b4-41f5-aea6-323c3cde348b
-
 
 Here are some photos of our final project:
 ![Final_Project_1](https://github.com/mxt-fr/MIT-2DPlotter/assets/42436661/b1f2dc4a-327f-4e95-9681-7f4543f66853)
